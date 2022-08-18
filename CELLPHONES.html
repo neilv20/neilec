@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<h1 style="color:blue;"> QUICKSTORE </h1>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="padding:30px;background-color: rgb(85, 154, 169);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">QUICK</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Neil.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ABOUT US.html">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PRODUCTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="MEN'S APPAREL.html">MEN'S APPAREL</a></li>
+              <li><a class="dropdown-item" href="WOMEN'S APPAREL.html">WOMENS APPAREL</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="KID'S APPAREL.html">KIDS APPAREL</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            GADGETS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="CELLPHONES.html">CELLPHONES</a></li>
+              <li><a class="dropdown-item" href="LAPTOP.html">LAPTOP</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CART</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<br><br>
+  <div class="container" style="padding-left:0%; padding-right:0%;">
+
+    <div class="container">
+      <div class="row text-center" style="background-color:rgb(148, 148, 79);">
+
+
+        <!-- -------------------  PHONE section----------------------- -->
+
+        
+        <div class="col-sm-3" style="padding:10px;">
+            <img src="cellphone/phone1.jpg" style="width:220px;"><BR>
+            <Span style="margin:20px; font-weight: bold;">REDMI 10</Span>
+            <p style="font-weight:bold; color: rgb(172, 90, 90); text-decoration: line-through;">COST: 8,000 Php
+            </p>
+            <p style="font-weight:bold;">Price: 7,799 Php</p>
+            <h1 style="font-size: 20px; background-color: azure;"> </h1>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart1">ADD TO CART</a>
+            <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+          </div>
+  
+  
+          <div class="col-sm-3" style="padding:10px;">
+            <img src="cellphone/phone2.jpg" style="width:220px;">
+            <Span style="margin:20px; font-weight: bold;">SAMSUNG GALAXY A13</Span>
+            <p style="font-weight:bold; color: rgb(172, 90, 90); text-decoration: line-through;">COST: 9,990 Php
+            </p>
+            <p style="font-weight:bold;">Price: 8,900 Php</p>
+            <h1 style="font-size: 20px; background-color: azure;"> </h1>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart2">ADD TO CART</a>
+            <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+          </div>
+  
+  
+          <div class="col-sm-3" style="padding:10px;">
+            <img src="cellphone/phone3.jpg" style="width:215px;"><br>
+            <Span style="margin:20px; font-weight: bold;">REDMI NOTE 10</Span>
+            <p style="font-weight:bold;color: rgb(172, 90, 90); text-decoration: line-through;">COST: 13,590 Php
+            </p>
+            <p style="font-weight: bold;">PRICE: 12,590 Php</p>
+            <h1 style="font-size: 20px; background-color: azure;"> </h1>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart3">ADD TO CART</a>
+            <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+          </div>
+  
+          <div class="col-sm-3" style="padding:10px;">
+            <img src="cellphone/phone4.jpg" style="width:220px;"><br>
+            <Span style="margin:20px; font-weight: bold;">XIOMI PAD 5</Span>
+            <p style="font-weight:bold; color: rgb(172, 90, 90); text-decoration: line-through;">COST: 17,990 Php
+            </p>
+            <p style="font-weight:bold;">PRICE: 16,990 Php</p>
+            <h1 style="font-size: 20px; background-color: azure;"> </h1>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart4">ADD TO CART</a>
+          <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+  
+</div>
+
+<!-----------------------------CELLPHONE SECOND-------------------->
+
+<div class="container" style="padding-top: 40px ;">
+<div class="row text-center" style="background-color:rgb(148, 148, 79);">
+
+  <div class="col-sm-3" style="padding:10px;">
+    <img src="cellphone/phone5.jpg" style="width:215px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE SE WHITE</Span>
+    <p style="font-weight:bold;">COST: 27,990 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart5">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone6.jpg" style="width:220px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE SE RED</Span>
+    <p style="font-weight:bold;">COST: 27,990 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart6">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone7.jpg" style="width:215px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 12 DARKBLUE</Span>
+    <p style="font-weight:bold;">COST: 41,890 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart7">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone8.jpg" style="width:220px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 12 PURPLE</Span>
+    <p style="font-weight:bold;">COST: 41,890 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart8">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+</div>
+
+
+
+<!-----------------------------CELLPHONE THRID-------------------->
+
+<div class="container" style="padding-top: 40px ;">
+<div class="row text-center" style="background-color:rgb(148, 148, 79);">
+
+  <div class="col-sm-3" style="padding:10px;">
+    <img src="cellphone/phone9.jpg" style="width:215px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 13 PINK</Span>
+    <p style="font-weight:bold;">COST: 59,800 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart9">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone10.jpg" style="width:220px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 13 BLUE</Span>
+    <p style="font-weight:bold;">COST: 59,800 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart10">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone11.jpg" style="width:215px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 11 BLACK</Span>
+    <p style="font-weight:bold;">COST: 27,000 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart11">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone12.jpg" style="width:220px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 11 SKYBLUE</Span>
+    <p style="font-weight:bold;">COST: 27,000 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart12">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+</div>
+
+
+<!-----------------------------PHONE FOURTH-------------------->
+
+<div class="container" style="padding-top: 40px ;">
+<div class="row text-center" style="background-color:rgb(148, 148, 79);">
+
+  <div class="col-sm-3" style="padding:10px;">
+    <img src="cellphone/phone13.jpg" style="width:215px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 11 WHITE</Span>
+    <p style="font-weight:bold;">COST: 27,000 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart13">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone14.jpg" style="width:220px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 11 PURPLE</Span>
+    <p style="font-weight:bold;">COST: 27,000 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart14">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone15.jpg" style="width:215px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 16,400 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart15">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone16.jpg" style="width:220px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 16,000 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart16">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+</div>
+
+
+
+
+<!-----------------------------CELLPHONE 5TH-------------------->
+
+<div class="container" style="padding-top: 40px ;">
+<div class="row text-center" style="background-color:rgb(148, 148, 79);">
+
+  <div class="col-sm-3" style="padding:10px;">
+    <img src="cellphone/phone17.jpg" style="width:215px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 1,000 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart17">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone18.jpg" style="width:220px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 800 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart18">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone19.jpg" style="width:215px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 16,000 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart19">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+
+  <div class="col-sm-3">
+    <img src="cellphone/phone20.jpg" style="width:220px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 16,000 Php</p>
+    <h1 style="font-size: 20px; background-color: azure;"> </h1>
+    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#cart16">ADD TO CART</a>
+    <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Sample1Modal">BUY NOW</a>
+  </div>
+</div>
+
+
+
+</html>   
+</body>
+
+
+
+
+<!-- -----MODAL FORM SECTION---------------- -->
+
+<div class="modal fade" id="Sample1Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PLEASE FILL OUT THE INFORMATION</h5>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Recipient:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Address:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                  <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Message:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                  <span style="font-weight:bold;">QUANTITY</span>
+                <input type="number" class="form-control"> 
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" onclick="buyNow1()">Buy Now</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--------------------CELLPHONES--------------------------->
+
+<!-- CART MODAL  1-->
+<div class="modal fade" id="cart1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone1.jpg" style="width:220px;">
+            <Span style="margin:20px; font-weight: bold;">REDMI 10</Span>
+            <p style="font-weight:bold; color: rgb(172, 90, 90); text-decoration: line-through;">COST: 8,000 Php
+            </p>
+            <p style="font-weight:bold;">Price: 7,799 Php</p>
+          </div>
+          <div class="modal-footer text-justify">
+
+              <button type="button" class="btn btn-primary"onclick="addCart1()">Add to Cart</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- CART MODAL  2    -->
+<div class="modal fade" id="cart2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone2.jpg" style="width:220px;">
+            <Span style="margin:20px; font-weight: bold;">SAMSUNG GALAXY A13</Span>
+            <p style="font-weight:bold; color: rgb(172, 90, 90); text-decoration: line-through;">COST: 9,990 Php
+            </p>
+            <p style="font-weight:bold;">Price: 8,900 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart2()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  3   -->
+<div class="modal fade" id="cart3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone3.jpg" style="width:215px;"><br>
+            <Span style="margin:20px; font-weight: bold;">REDMI NOTE 10</Span>
+            <p style="font-weight:bold;color: rgb(172, 90, 90); text-decoration: line-through;">COST: 13,590 Php
+            </p>
+            <p style="font-weight: bold;">PRICE: 12,590 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart3()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  4   -->
+<div class="modal fade" id="cart4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone4.jpg" style="width:220px;"><br>
+            <Span style="margin:20px; font-weight: bold;">XIOMI PAD 5</Span>
+            <p style="font-weight:bold; color: rgb(172, 90, 90); text-decoration: line-through;">COST: 17,990 Php
+            </p>
+            <p style="font-weight:bold;">PRICE: 16,990 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart4()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!--------------- CELLPHONE  SECOND---------------->
+
+
+<!-- CART MODAL  5-->
+<div class="modal fade" id="cart5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone5.jpg" style="width:215px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE SE WHITE</Span>
+    <p style="font-weight:bold;">COST: 27,990 Php</p>
+
+          </div>
+          <div class="modal-footer text-justify">
+
+              <button type="button" class="btn btn-primary"onclick="addCart5()">Add to Cart</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- CART MODAL  6    -->
+<div class="modal fade" id="cart6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone6.jpg" style="width:220px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE SE RED</Span>
+    <p style="font-weight:bold;">COST: 27,990 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart6()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  7  -->
+<div class="modal fade" id="cart7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone7.jpg" style="width:215px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 12 DARKBLUE</Span>
+    <p style="font-weight:bold;">COST: 41,890 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart7()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  8  -->
+<div class="modal fade" id="cart8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone8.jpg" style="width:220px; padding-top: 30px;"><br>
+            <Span style="margin:20px; font-weight: bold;">IPHONE 12 PURPLE</Span>
+            <p style="font-weight:bold;">COST: 41,890 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart8()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--------------- CELLPHONE  THRID---------------->
+
+
+<!-- CART MODAL  9-->
+<div class="modal fade" id="cart9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone9.jpg" style="width:215px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 13 PINK</Span>
+    <p style="font-weight:bold;">COST: 59,800 Php</p>
+
+          </div>
+          <div class="modal-footer text-justify">
+
+              <button type="button" class="btn btn-primary"onclick="addCart9()">Add to Cart</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- CART MODAL  10   -->
+<div class="modal fade" id="cart10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone10.jpg" style="width:220px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 13 BLUE</Span>
+    <p style="font-weight:bold;">COST: 59,800 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart10()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  11 -->
+<div class="modal fade" id="cart11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone11.jpg" style="width:215px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 11 BLACK</Span>
+    <p style="font-weight:bold;">COST: 27,000 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart11()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  12 -->
+<div class="modal fade" id="cart12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone12.jpg" style="width:220px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 11 SKYBLUE</Span>
+    <p style="font-weight:bold;">COST: 27,000 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart12()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--------------- CELLPHONE  FOURTH---------------->
+
+
+<!-- CART MODAL  13-->
+<div class="modal fade" id="cart13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone13.jpg" style="width:215px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">IPHONE 11 WHITE</Span>
+    <p style="font-weight:bold;">COST: 27,000 Php</p>
+          </div>
+          <div class="modal-footer text-justify">
+
+              <button type="button" class="btn btn-primary"onclick="addCart13()">Add to Cart</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- CART MODAL  14   -->
+<div class="modal fade" id="cart14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone14.jpg" style="width:220px;padding-top: 30px;"><br>
+            <Span style="margin:20px; font-weight: bold;">IPHONE 11 PURPLE</Span>
+            <p style="font-weight:bold;">COST: 27,000 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart14()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  15  -->
+<div class="modal fade" id="cart15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone15.jpg" style="width:215px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 16,400 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart15()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  16  -->
+<div class="modal fade" id="cart16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone16.jpg" style="width:220px; padding-top: 30px;"><br>
+            <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+            <p style="font-weight:bold;">COST: 16,000 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart16()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--------------- CELLPHONE  5TH---------------->
+
+
+<!-- CART MODAL  17-->
+<div class="modal fade" id="cart17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone17.jpg" style="width:215px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 1,000 Php</p>
+
+          </div>
+          <div class="modal-footer text-justify">
+
+              <button type="button" class="btn btn-primary"onclick="addCart17()">Add to Cart</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- CART MODAL  18    -->
+<div class="modal fade" id="cart18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone18.jpg" style="width:220px;padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 800 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart18()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  19  -->
+<div class="modal fade" id="cart19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone19.jpg" style="width:215px;padding-top: 30px;"><br>
+            <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+            <p style="font-weight:bold;">COST: 16,000 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary"onclick="addCart19()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- CART MODAL  20 -->
+<div class="modal fade" id="cart20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content text-center">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ADD TO CART</h5>
+          </div>
+          <div class="modal-body">
+            <img src="cellphone/phone16.jpg" style="width:220px; padding-top: 30px;"><br>
+    <Span style="margin:20px; font-weight: bold;">APPLE WATCH SE</Span>
+    <p style="font-weight:bold;">COST: 16,000 Php</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary" onclick="addCart20()">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<!-- BUY MODAL --->
+
+<div class="modal" tabindex="-1" id="buyNowModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold">Shipping Address</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <input type="text"  placeholder="Name" class="form-control"><br>
+        <input type="number"  placeholder="Enter Number" class="form-control"><br>
+        <input type="text"  placeholder="Location" class="form-control"><br>
+        <input type="number"  placeholder="Zip Code" class="form-control"><br>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-danger" onclick="buyNow1()">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+//Buy now function
+function buyNow1(){
+  alert('Placed an Order')
+
+  setTimeout(function(){location.href="Neil.html", 3000} );
+
+}
+  function addCart1(){
+    alert('Added To Cart')
+    $('#cart1').modal('hide')
+  }
+
+  function addCart2(){
+    alert('Added To Cart')
+    $('#cart2').modal('hide')
+  }
+
+  function addCart3(){
+    alert('Added To Cart')
+    $('#cart3').modal('hide')
+  }
+
+  function addCar4t(){
+    alert('Added To Cart')
+    $('#cart4').modal('hide')
+  }
+
+  function addCart5(){
+    alert('Added To Cart')
+    $('#cart5').modal('hide')
+  }
+
+  function addCart6(){
+    alert('Added To Cart')
+    $('#cart6').modal('hide')
+  }
+
+  function addCart7(){
+    alert('Added To Cart')
+    $('#cart7').modal('hide')
+  }
+
+  function addCart8(){
+    alert('Added To Cart')
+    $('#cart8').modal('hide')
+  }
+
+  function addCart9(){
+    alert('Added To Cart')
+    $('#cart9').modal('hide')
+  }
+
+  function addCart10(){
+    alert('Added To Cart')
+    $('#cart10').modal('hide')
+  }
+
+  function addCart11(){
+    alert('Added To Cart')
+    $('#cart11').modal('hide')
+  }
+
+  function addCart12(){
+    alert('Added To Cart')
+    $('#cart12').modal('hide')
+  }
+
+  function addCart13(){
+    alert('Added To Cart')
+    $('#cart13').modal('hide')
+  }
+
+  function addCart14(){
+    alert('Added To Cart')
+    $('#cart14').modal('hide')
+  }
+
+  function addCart15(){
+    alert('Added To Cart')
+    $('#cart15').modal('hide')
+  }
+
+  function addCart16(){
+    alert('Added To Cart')
+    $('#cart16').modal('hide')
+  }
+
+  function addCart17(){
+    alert('Added To Cart')
+    $('#cart17').modal('hide')
+  }
+
+  function addCart18(){
+    alert('Added To Cart')
+    $('#cart18').modal('hide')
+  }
+
+  function addCart19(){
+    alert('Added To Cart')
+    $('#cart19').modal('hide')
+  }
+
+  function addCart20(){
+    alert('Added To Cart')
+    $('#cart20').modal('hide')
+  }
+
+</script>
